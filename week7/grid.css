@@ -1,0 +1,27 @@
+.grid{
+    width: 100%;
+    border: 3px solid rgb(123, 122, 120);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 250px 250px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+.box1{
+    background-color: aqua;
+}
+.box2{
+    background-color: rgb(26, 255, 0);
+}
+.box3{
+    background-color: rgb(166, 205, 77);
+}
+.box4{
+    background-color: rgb(10, 30, 30);
+}
+.box5{
+    background-color: rgb(100, 86, 207);
+}
+.box6{
+    background-color: rgb(225, 81, 165);
+}

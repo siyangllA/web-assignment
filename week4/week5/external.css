@@ -1,0 +1,39 @@
+*{
+    font-size: 50px;
+    font-family: 'Kaushan Script', cursive;
+}
+h1{
+
+    background-color: blue;
+    color: cornsilk;
+    */ font-size: 60px; */
+}
+.p1{
+    background-color: rgb(105, 105, 132);
+    color: rgb(135, 216, 216);
+    */ font-size: 30px; */
+    font-style: italic; 
+}
+.p2{
+    background-color: rgb(12, 12, 45);
+    color: rgb(147, 255, 255);
+    */ font-size: 30px; */
+    font-style: italic;
+}
+.p3{
+    background-color: rgb(136, 129, 31);
+    color: rgb(255, 131, 220);
+    */ font-size: 30px; */
+    font-style: italic;
+}
+.p3:hover{
+    background-color: goldenrod;
+    color: rgb(66, 42, 4);
+}
+img{
+    width:1000px
+    height: 200px
+}
+img[alt]{
+    color: blueviolet;
+}
