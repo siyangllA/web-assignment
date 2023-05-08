@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+    <script>
+        let a = 10;
+        {
+            let a = 12;
+            console.log(a);
+        }
+        console.log(a);
+
+        const items = {
+            name : "Siyangla",
+            age : 22,
+            address : "Bouddha"
+        }
+
+        console.log(items.name);
+
+        const Dict = {
+            dance : "The movement of the body in a rhythmic way.",
+            sing : "Make a musical sound with the voice.",
+            sign : "Movement of the hands or body that gives information or an instruction"
+        }
+
+        console.log(Dict)
+
+        const n = prompt("What's your name?")
+        console.log(n);
+
+        age1 = prompt("What's your age: ");
+        if(age1>0){
+            alert("Valid age");
+        }else{
+            alert("Invalid age");
+        }
+        console.log(age1);
+
+        age2 = prompt("What's your age: ");
+        if(age2>0 && age2<=12){
+            alert("Infant");
+        }else if(age2>13 && age2<=19){
+            alert("Teenager");
+        }else if(age2>20 && age2<=50){
+            alert("adult");
+        }else if(age2>51){
+            alert("old")
+        }else{
+            alert("Invalid")
+        }
+        console.log(age2);
+    </script>
+</body>
+</html>
