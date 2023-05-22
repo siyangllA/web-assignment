@@ -1,0 +1,145 @@
+@import 
+url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&family=Unbounded:wght@200;400;700&display=swap");
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: grey;
+  text-align: center;
+}
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #111;
+}
+
+/* Additional styles for an attractive navigation bar */
+nav {
+  background-color: #222;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+nav ul li a {
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.3s ease;
+}
+
+nav ul li a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+
+/* code for div */
+
+.second_main {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.contentss {
+  width: 50%;
+}
+
+.contentss .heading2 h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contentss .para2 p {
+  font-size: 16px;
+}
+
+#img1 {
+  width: 50%;
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  padding-right: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.content-wrapper {
+  width: 50%;
+  background-color: rgb(9, 22, 19);
+  padding: 5%;
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 1.1;
+  margin-bottom: 30px;
+  font-family: "Unbounded", cursive;
+}
+
+h2 {
+  margin-bottom: 100px;
+  font-weight: 200;
+  line-height:calc() ;
+}
+
+figure {
+  width: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.button {
+  margin-top: 20px;
+}
+
+.button a {
+  display: inline-block;
+  padding: 10px 50px;
+  background: orange;
+  border-radius: 30px;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: 800;
+  transition: all 0.5s ease;
+}
+
+.button a:hover {
+  background: black;
+  color: orange;
+}
+.img{
+    size: 0cqmin;
+}
